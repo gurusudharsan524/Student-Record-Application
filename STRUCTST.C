@@ -51,11 +51,11 @@ int main()
   printf("enter number of students:");
   scanf("%d",&n);
 
- /* if (n<1 || n>100)
+  if (n<1 || n>100)
   {
    printf("invalid number of students!\n");
    return 1;
-  }*/
+  }
   read(s,n);
   write(s,n);
   return 0;
